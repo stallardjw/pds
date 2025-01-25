@@ -46,8 +46,6 @@ Please visit the [AT Protocol docs](https://atproto.com/guides/overview) for add
 
 ### Where is the code?
 
-* [TypeScript code](https://github.com/bluesky-social/atproto/tree/main/packages/pds)
-* [Go code](https://github.com/bluesky-social/indigo)
 
 ### What is the current status of federation?
 
@@ -135,13 +133,13 @@ These should all return your server's public IP.
 On your server via ssh, download the installer script using wget:
 
 ```bash
-wget https://raw.githubusercontent.com/bluesky-social/pds/main/installer.sh
+wget https://raw.githubusercontent.com/stallardjw/pds/main/installer.sh
 ```
 
 or download it using curl:
 
 ```bash
-curl https://raw.githubusercontent.com/bluesky-social/pds/main/installer.sh >installer.sh
+curl https://raw.githubusercontent.com/stallardjw/pds/main/installer.sh >installer.sh
 ```
 
 And then run the installer using bash:
@@ -195,7 +193,6 @@ You can use the Bluesky app to connect to your PDS.
 
 1. Get the Bluesky app
     * [Bluesky for Web](https://bsky.app/)
-    * [Bluesky for iPhone](https://apps.apple.com/us/app/bluesky-social/id6444370199)
     * [Bluesky for Android](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app)
 1. Enter the URL of your PDS (e.g. `https://example.com/`)
 
@@ -228,7 +225,7 @@ sudo pdsadmin update
 
 This project is dual-licensed under MIT and Apache 2.0 terms:
 
-- MIT license ([LICENSE-MIT.txt](https://github.com/bluesky-social/pds/blob/main/LICENSE-MIT.txt) or http://opensource.org/licenses/MIT)
-- Apache License, Version 2.0, ([LICENSE-APACHE.txt](https://github.com/bluesky-social/pds/blob/main/LICENSE-APACHE.txt) or http://www.apache.org/licenses/LICENSE-2.0)
+- MIT license ([LICENSE-MIT.txt](https://github.com/stallardjw/pds/blob/main/LICENSE-MIT.txt) or http://opensource.org/licenses/MIT)
+- Apache License, Version 2.0, ([LICENSE-APACHE.txt](https://github.com/stallardjw/pds/blob/main/LICENSE-APACHE.txt) or http://www.apache.org/licenses/LICENSE-2.0)
 
 Downstream projects and end users may choose either license individually, or both together, at their discretion. The motivation for this dual-licensing is the additional software patent assurance provided by Apache 2.0.
