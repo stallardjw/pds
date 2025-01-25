@@ -2,7 +2,7 @@ version: '3.9'
 services:
   pds:
     container_name: pds
-    image: ghcr.io/stallardjw/pds:0.4
+    image: ghcr.io/stallardjw/pds:latest
     network_mode: host
     restart: unless-stopped
     volumes:
